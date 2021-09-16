@@ -1,9 +1,5 @@
-.DS_Store
-node_modules
-/dist
 
-
-# local env files
+#  local env files
 .env.local
 .env.*.local
 
@@ -21,3 +17,12 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+.DS_Store
+node_modules
+/dist
+.next
+yarn-error.log
+build
+yarn.locked
+docs/_build
